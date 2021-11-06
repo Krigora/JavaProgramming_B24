@@ -1,0 +1,109 @@
+package day37_methods;
+
+public class NumberReturn {
+    /*
+    Task:
+
+    Create a method that will accept a number parameter. We want to return a number as a word in String format
+
+        method(1) -> one
+        method(10) -> ten
+
+        return type: String
+        method name: convertNumberToWord
+        parameter: int
+     */
+
+    public static void main(String[] args) {
+        System.out.println(convertNumberToWord(10));
+        System.out.println(convertNumberToWord(-1));
+    }
+
+
+    public static String convertNumberToWord(int numer) {
+        if (numer < 0 || numer > 10) {
+            return "Out of Range";
+        }
+        String[] words = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
+
+        return words[numer - 1];
+
+    }
+
+    public static String wordReturn(int num) {
+        String word = "";
+        switch (num) {
+            case 1:
+                word = "one";
+                break;
+            case 2:
+                word = "two";
+                break;
+            case 3:
+                word = "three";
+                break;
+            case 4:
+                word = "four";
+                break;
+            case 5:
+                word = "five";
+                break;
+            case 6:
+                word = "six";
+                break;
+            case 7:
+                word = "seven";
+                break;
+            case 8:
+                word = "eight";
+                break;
+            case 9:
+                word = "nine";
+                break;
+            case 10:
+                word = "ten";
+                break;
+            default:
+        }
+        return word;
+    }
+
+    public static String numberToWord(int a) {
+        switch (a) {
+            case 0:
+                return "Zero";
+            case 1:
+                return "one";
+            case 2:
+                return "two";
+            case 3:
+                return "three";
+            case 4:
+                return "four";
+            case 5:
+                return "five";
+            case 6:
+                return "six";
+            case 7:
+                return "seven";
+            case 8:
+                return "eight";
+            case 9:
+                return "nine";
+            case 10:
+                return "ten";
+            default:
+                return "out of range";
+
+
+        }
+    }
+
+  //  public static int method(){
+   //     for (int i = 0; i < 5; i++){
+    //        if (i == 2){
+    //            return 0;
+      //      }
+     //   }
+   // }
+}
