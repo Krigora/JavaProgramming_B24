@@ -1,9 +1,5 @@
 package day26_uni2recap;
 
-import com.sun.org.apache.xalan.internal.xsltc.dom.SimpleResultTreeImpl;
-import day5_Variables.SalaryCalculator;
-
-import java.util.Locale;
 import java.util.Scanner;
 
 public class MoodRing {

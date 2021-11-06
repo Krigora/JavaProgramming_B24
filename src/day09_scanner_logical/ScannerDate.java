@@ -2,8 +2,6 @@ package day09_scanner_logical;
 
 import java.util.Scanner;
 
-import day5_Variables.MyName;
-
 public class ScannerDate {
 
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package day5_Variables;
-
-import java.sql.SQLOutput;
+package day05_Variables;
 
 public class Movie {
     /*

@@ -1,6 +1,4 @@
-package day5_Variables;
-
-import javax.lang.model.SourceVersion;
+package day05_Variables;
 
 public class BooleanExamples {
     public static void main(String[] args) {

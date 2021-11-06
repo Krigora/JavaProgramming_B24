@@ -1,4 +1,4 @@
-package day5_Variables;
+package day05_Variables;
 
 public class Computer {
 
