@@ -20,7 +20,13 @@ public class Store {
         Eragon newobj = (Eragon)obj3;
         newobj.sell();
 
+        purchase(new Item("wooden spoon"));
+        purchase(obj1);
+        purchase(new Book("Harry POtter"));
 
+    }
+    public  static  void  purchase(Item item){
+        System.out.println("Purchasing " + item.name);
 
     }
 }
