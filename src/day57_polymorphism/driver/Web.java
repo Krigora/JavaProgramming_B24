@@ -28,6 +28,6 @@ public class Web {
 
        WebElement [] elements = new WebElement[3];
        elements[0]= link1;
-       elements[1] = Input();
+       elements[1] = new Input();
     }
 }
