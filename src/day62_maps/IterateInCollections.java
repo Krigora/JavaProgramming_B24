@@ -16,7 +16,7 @@ public class IterateInCollections {
         //  System.out.println(it.next());
 
         while (it.hasNext()){
-           // System.out.println(it.next());
+           //  System.out.println(it.next());
             String name = it.next();
             if (name.startsWith("A")){
                 it.remove();
